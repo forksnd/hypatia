@@ -1544,6 +1544,7 @@ HYPAPI struct vector4 *vector4_set(struct vector4 *self, const struct vector4 *v
 	self->x = vT->x;
 	self->y = vT->y;
 	self->z = vT->z;
+	self->w = vT->w;
 	return self;
 }
 
